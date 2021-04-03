@@ -1,0 +1,36 @@
+2021-03-14T04:03:19+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_total() on null in C:\xampp\htdocs\belajarwoocomerce\wp-content\themes\woocommerce1\header.php:77
+Stack trace:
+#0 C:\xampp\htdocs\belajarwoocomerce\wp-includes\template.php(730): require_once()
+#1 C:\xampp\htdocs\belajarwoocomerce\wp-includes\template.php(676): load_template('C:\\xampp\\htdocs...', true, Array)
+#2 C:\xampp\htdocs\belajarwoocomerce\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\xampp\htdocs\belajarwoocomerce\wp-content\themes\woocommerce1\front-page.php(2): get_header()
+#4 C:\xampp\htdocs\belajarwoocomerce\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\belajarwoocomerce\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\belajarwoocomerce\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown di C:\xampp\htdocs\belajarwoocomerce\wp-content\themes\woocommerce1\header.php pada baris 77
+
+2021-03-14T04:03:30+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_total() on null in C:\xampp\htdocs\belajarwoocomerce\wp-content\themes\woocommerce1\header.php:77
+Stack trace:
+#0 C:\xampp\htdocs\belajarwoocomerce\wp-includes\template.php(730): require_once()
+#1 C:\xampp\htdocs\belajarwoocomerce\wp-includes\template.php(676): load_template('C:\\xampp\\htdocs...', true, Array)
+#2 C:\xampp\htdocs\belajarwoocomerce\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\xampp\htdocs\belajarwoocomerce\wp-content\themes\woocommerce1\front-page.php(2): get_header()
+#4 C:\xampp\htdocs\belajarwoocomerce\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\belajarwoocomerce\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\belajarwoocomerce\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown di C:\xampp\htdocs\belajarwoocomerce\wp-content\themes\woocommerce1\header.php pada baris 77
+
+2021-03-14T04:03:56+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_total() on null in C:\xampp\htdocs\belajarwoocomerce\wp-content\themes\woocommerce1\header.php:77
+Stack trace:
+#0 C:\xampp\htdocs\belajarwoocomerce\wp-includes\template.php(730): require_once()
+#1 C:\xampp\htdocs\belajarwoocomerce\wp-includes\template.php(676): load_template('C:\\xampp\\htdocs...', true, Array)
+#2 C:\xampp\htdocs\belajarwoocomerce\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\xampp\htdocs\belajarwoocomerce\wp-content\themes\woocommerce1\front-page.php(2): get_header()
+#4 C:\xampp\htdocs\belajarwoocomerce\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\belajarwoocomerce\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\belajarwoocomerce\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown di C:\xampp\htdocs\belajarwoocomerce\wp-content\themes\woocommerce1\header.php pada baris 77
+

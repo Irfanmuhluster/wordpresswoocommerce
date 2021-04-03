@@ -1,0 +1,10 @@
+2021-03-12T01:18:27+00:00 CRITICAL syntax error, unexpected ',' di C:\xampp\htdocs\belajarwoocomerce\wp-content\themes\woocommerce1\inc\features\front_page_section.php pada baris 209
+
+2021-03-12T01:18:28+00:00 CRITICAL syntax error, unexpected ',' di C:\xampp\htdocs\belajarwoocomerce\wp-content\themes\woocommerce1\inc\features\front_page_section.php pada baris 209
+
+2021-03-12T09:38:11+00:00 CRITICAL Maximum execution time of 220 seconds exceeded di C:\xampp\htdocs\belajarwoocomerce\wp-includes\taxonomy.php pada baris 1595
+
+2021-03-12T09:39:33+00:00 CRITICAL Maximum execution time of 220 seconds exceeded di C:\xampp\htdocs\belajarwoocomerce\wp-includes\cache.php pada baris 122
+
+2021-03-12T14:14:06+00:00 CRITICAL require_once(): Failed opening required 'components/navbar.inc.php' (include_path='C:\xampp\php\PEAR') di C:\xampp\htdocs\belajarwoocomerce\wp-content\themes\woocommerce1\woocommerce.php pada baris 7
+
