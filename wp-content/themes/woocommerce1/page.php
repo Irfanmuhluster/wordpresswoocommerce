@@ -8,19 +8,31 @@ $slug = basename(get_permalink());
     } else {
         ?>
 <section class="site-main main" role="main">
-	<!-- saasa;ldasldlasdksladklasdklsadlksadlk -->
+
 <?php
 // menampilkan post artikel
-if (have_posts()) {
+if (have_posts()) : 
     while (have_posts()) : the_post(); ?>
-	<?php
-    the_title();
-    the_content();
-    endwhile;
-    // get_template_part('content','page');
-} ?>
+        <h1 class="heading2">
+            <?php the_title(); ?> 
+        </h1>
+    <?php
+    the_content(); ?>
+   
+	
+   <?php endwhile; ?>
+<?php endif; ?>
 </section>
 <?php
     }
 get_footer(); // menampilkan footer
 ?>
+<style>
+    .main {
+        display: block !important;
+    }
+    .woocommerce {
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
+</style>

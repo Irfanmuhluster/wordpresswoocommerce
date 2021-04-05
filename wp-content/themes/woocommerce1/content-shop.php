@@ -2,7 +2,7 @@
 get_header(); // menampilkan header
 ?>
 <section class="site-main main" role="main">
-	<!-- saasa;ldasldlasdksladklasdklsadlksadlk -->
+	
     <div class="sidebar">
         <div class="card">
         <div class="card-header">Kategori Produk
