@@ -2,14 +2,23 @@
 get_header(); // menampilkan header
 
 $slug = basename(get_permalink());
-// var_dump($categories);
+// var_dump($slug);
     if ($slug == 'product') {
         get_template_part('content','shop');
     } else {
+     if($slug=='cart') {
         ?>
-<section class="site-main main" role="main">
+        
+        <section class="site-main main-cart" role="main">
+    <?php }
+        else {
+            ?>
+        
+    <section class="site-main main" role="main">
+
 
 <?php
+        }
 // menampilkan post artikel
 if (have_posts()) : 
     while (have_posts()) : the_post(); ?>
@@ -28,7 +37,7 @@ if (have_posts()) :
 get_footer(); // menampilkan footer
 ?>
 <style>
-    .main {
+    .main-cart {
         display: block !important;
     }
     .woocommerce {
